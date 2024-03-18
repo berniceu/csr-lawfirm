@@ -38,7 +38,7 @@ li {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 90vh;
     padding: 20px 0;
 
 }
@@ -97,7 +97,7 @@ nav ul a{
 /* about us section */
 
 section{
-    height: 80vh;
+    
     padding-left: 200px;
 }
 
@@ -114,10 +114,11 @@ section{
 .about-us-container{
     display: flex;
     gap: 2rem;
+    margin-top: 12rem;
 }
 
 .img-container{
-    width: 500px;
+    width: 300px;
     height: 400px;
 }
 
@@ -140,3 +141,44 @@ section{
 .learn-more a{
     color: #fff;
 }
+
+/* our services cards*/
+
+.services-container{
+    color: black;
+    margin-top: 5rem;
+}
+
+.services-container h2{
+    text-align: center;
+}
+
+.services-container .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+
+.cards h4{
+    font-size: 0.8rem;
+    padding: 10px;
+
+}
+
+.services-container .card-one{
+    width: 200px;
+    height: 200px;
+    font-size: 0.8rem;
+    background-color: rgba(246, 237, 224, 1);
+    text-align: center;
+}
+
+.services-container .card-two{
+    width: 200px;
+    height: 200px;
+    font-size: 0.8rem;
+    background-color: rgba(241, 241, 241, 1);
+    text-align: center;
+}
+

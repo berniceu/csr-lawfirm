@@ -40,6 +40,7 @@ li {
     background-repeat: no-repeat;
     height: 90vh;
     padding: 20px 0;
+    
 
 }
 
@@ -75,7 +76,6 @@ nav ul a{
 
 
 #home{
-    margin-top: 200px;
     width: 700px;
     padding-left: 10rem;
 }
@@ -97,8 +97,8 @@ nav ul a{
 /* about us section */
 
 section{
+  margin: 12rem;
     
-    padding-left: 200px;
 }
 
 .about-us-container p{
@@ -114,7 +114,9 @@ section{
 .about-us-container{
     display: flex;
     gap: 2rem;
-    margin-top: 12rem;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .img-container{
@@ -146,7 +148,8 @@ section{
 
 .services-container{
     color: black;
-    margin-top: 5rem;
+    margin-top: 30rem;
+
 }
 
 .services-container h2{
@@ -158,6 +161,7 @@ section{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 2rem;
     gap: 1rem;
+    
 }
 
 .cards h4{

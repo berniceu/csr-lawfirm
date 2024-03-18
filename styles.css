@@ -210,6 +210,25 @@ section{
     gap: 2rem;
 }
 
+/* why-us*/
+
+.why-us-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.why-us-content h2{
+    padding-bottom: 2rem;
+    font-family: 'Alegreya', sans-serif;
+}
+
+.partner{
+    width: 400px;
+    padding-bottom: 1rem;
+
+}
+
 /*call to action*/
 
 #call-to-action{
@@ -233,9 +252,11 @@ section{
 
 .call-to-action-container p{
     padding-bottom: 1rem;
+    color: #fff;
 }
 /* contact us section */
-#contact-us{
+#contact-us,
+#why-us{
     width: 80%;
     margin: auto;
 }

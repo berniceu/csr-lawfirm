@@ -210,15 +210,40 @@ section{
     gap: 2rem;
 }
 
+
+
+/* our practice section*/
+
+.practice-content p{
+    padding-bottom: 1rem;
+}
+
+.card-row{
+    display: flex;
+    gap: 6px;
+
+}
+
+.card{
+    background-color: rgba(246, 237, 224, 1);
+    height: 50px;
+    width: fit-content;
+
+}
+
 /* why-us*/
 
-.why-us-container{
+.why-us-container,
+.practice-container,
+.sectors-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
 
 }
 
-.why-us-content h2{
+.why-us-content h2,
+.practice-container h2,
+.sectors-container h2{
     padding-bottom: 2rem;
     font-family: 'Alegreya', sans-serif;
 }
@@ -256,7 +281,9 @@ section{
 }
 /* contact us section */
 #contact-us,
-#why-us{
+#why-us,
+#our-practice
+{
     width: 80%;
     margin: auto;
 }

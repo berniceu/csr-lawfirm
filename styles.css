@@ -120,6 +120,15 @@ nav ul a{
     color: #fff;
 }
 
+.shape{
+    position: relative;
+}
+
+.shape img{
+    position: absolute;
+    left: 50%;
+    top: 5rem;
+}
 /* about us section */
 
 section{

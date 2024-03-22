@@ -22,7 +22,16 @@
         display: table;
     }
 
-    
+    #home{
+        width: 500px;
+        margin: 10rem auto;
+        text-align: center;
+    }
+
+    .hero-text h1{
+        font-size: 4rem;
+        
+    }
 
     .cards{
         flex-direction: column;
@@ -37,9 +46,16 @@
     .about-us-container{
         
         background-color: #fff;
-        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: table;
+        
         
 
+    }
+
+    .learn-more{
+        z-index: 1;
+        background-color: #fff;
     }
 
     .img-container{

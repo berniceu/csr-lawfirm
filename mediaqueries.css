@@ -19,7 +19,32 @@
     }
 
     .info-container{
+        display: table;
+    }
+
+    
+
+    .cards{
         flex-direction: column;
+    }
+
+   
+   
+
+    .why-us-content,
+    .practice-content,
+    .sectors-content,
+    .about-us-container{
+        
+        background-color: #fff;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+        
+
+    }
+
+    .img-container{
+        width: 100%;
+
     }
 
     .user-name{

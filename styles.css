@@ -10,6 +10,7 @@ body{
     font-weight: 400;
     overflow-x: hidden;
     overflow-y: auto;
+    
 
 }
 
@@ -43,6 +44,7 @@ li {
     background-repeat: no-repeat;
     height: 100vh;
     padding-top: 20px;
+    
     
     
 
@@ -115,8 +117,9 @@ section{
     
 }
 
-#about-us{
-    background-color: #fff;
+.about-us-content{
+    width: 80%;
+    margin: auto;
 }
 
 
@@ -136,10 +139,6 @@ section{
 .about-us-container{
     display: flex;
     gap: 2rem;
-    align-items: center;
-    justify-content: center;
-    
-    
     
 }
 
@@ -172,7 +171,6 @@ section{
 
 .services-container{
     color: black;
-    margin-top: 35rem;
     
 
 }
@@ -349,7 +347,8 @@ section{
 .right-container textarea{
     padding: 0.8rem;
     width: 100%;
-    font-family: 'inter', sans-serif
+    font-family: 'inter', sans-serif;
+    resize: none;
 
 }
 

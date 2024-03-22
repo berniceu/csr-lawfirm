@@ -1,4 +1,23 @@
 @media screen and (max-width: 865px) {
+
+    body{
+        font-size: 12px;
+    }
+    /*hamburger menu*/
+
+    .desktop-menu{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hamburger-nav{
+        display: none;
+    }
+
     .info-container{
         flex-direction: column;
     }

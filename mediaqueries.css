@@ -9,9 +9,13 @@
         display: none;
     }
 
+    
+
     .hamburger-menu{
         display: flex;
         justify-content: space-between;
+        padding-right: 15px;
+        cursor: pointer;
     }
 
     .hamburger-nav{
@@ -19,7 +23,7 @@
     }
 
     .info-container{
-        display: table;
+        flex-direction: column;
     }
 
     #home{
@@ -37,32 +41,87 @@
         flex-direction: column;
     }
 
+    .shape img{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: -4rem;
+        left: 21rem;
+    }
+
    
    
 
     .why-us-content,
     .practice-content,
-    .sectors-content,
-    .about-us-container{
+    .sectors-content{
         
         background-color: #fff;
         box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
-        display: table;
+        flex-direction: column;
+        text-align: center;
         
         
 
+    }
+
+    .practice-container,
+    .why-us-container,
+    .sectors-container{
+        display: table;
+    }
+
+    .about-us-container{
+        flex-direction: column;
+    }
+
+    .about-us-content{
+        width: 100%;
     }
 
     .learn-more{
-        z-index: 1;
+        
         background-color: #fff;
+        box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        width: 80%;
+    }
+
+    .services-container{
+        padding-top: 20rem;
+    }
+    .services-container .cards{
+        flex-direction: column;
+        
     }
 
     .img-container{
-        width: 100%;
-
+        margin: 0 auto;
+        
+        
     }
 
+    .learn-more{
+        position: absolute;
+        top: 72rem;
+        left: 3rem;
+        
+    }
+
+    
+
+    .why-us-container .img-container,
+    .practice-container .img-container,
+    .sectors-container .img-container{
+        display: none;
+        position: relative;
+    }
+
+    .card-row{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .user-name{
         flex-direction: column;
     }
@@ -75,7 +134,8 @@
     }
 
     iframe{
-        width: 450px;
+        width: 100%;
+        
     }
 
     .right-container .button{

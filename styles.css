@@ -104,6 +104,7 @@ nav ul a{
 }
 
 
+
 .hero-text h1{
     color: #D4AF73;
     font-weight: 700;
@@ -139,9 +140,13 @@ section{
     
 }
 
+#about-us{
+    margin-top: 5rem;
+}
+
 .about-us-content{
     width: 80%;
-    margin: auto;
+    margin:0 auto;
 }
 
 
@@ -193,8 +198,13 @@ section{
 
 .services-container{
     color: black;
+    padding-top: 6rem;
     
 
+}
+
+.services-container p{
+    font-size: 1rem;
 }
 
 .services-container h2{
@@ -213,13 +223,13 @@ section{
 }
 
 .cards h4{
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 10px;
 
 }
 
 .services-container .card-one{
-    width: 200px;
+    width: 300px;
     height: 200px;
     font-size: 0.8rem;
     background-color: rgba(246, 237, 224, 1);
@@ -227,7 +237,7 @@ section{
 }
 
 .services-container .card-two{
-    width: 200px;
+    width: 300px;
     height: 200px;
     font-size: 0.8rem;
     background-color: rgba(241, 241, 241, 1);
